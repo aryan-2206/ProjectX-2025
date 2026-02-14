@@ -167,15 +167,42 @@ This is the list of projects completed in the 2025 programme.
 
 ## CodeSage
 ### Description
+# CodeSage — AI-Powered Code Interpreter & Explainer
+
+**CodeSage** is a Python-based framework that executes code and explains its logic in simple, human-readable language.  
+It combines compiler concepts with AI-based summarization to help users understand how code works internally.
+
+## Pipeline
+- **Lexer** → Converts source code into tokens  
+- **Parser** → Builds an Abstract Syntax Tree (AST)  
+- **Summarizer** → Generates structured explanations  
+- **Interpreter** → Executes the AST (tree-walk)  
+- **NLP (Optional)** → Refines explanations  
+- **GUI (Tkinter)** → Editor, output, AST view, summaries  
+
+## Purpose
+- Help students understand how interpreters work  
+- Explain code behavior clearly  
+- Visualize program structure  
+- Bridge programming with AI-based explanation  
+
+**CodeSage runs code and explains it step-by-step.**
 
 ### Output images
+<img width="877" height="518" alt="image" src="https://github.com/user-attachments/assets/2bda37c8-5d7c-4d7a-917f-7691f3930c7c" />
+<img width="895" height="651" alt="image" src="https://github.com/user-attachments/assets/ac11c585-089e-416a-92a2-8de5f8919fdd" />
+
 
 ### References
+https://github.com/Mokshii46/CODESAGE
+https://Mokshii46.github.io/CODESAGE/
 
-**Mentors:**
+## Mentors
+Yadnyesh Patil
+Rupak Gupta
 
-**Domains:**
-
+## Domains:
+AST Parsing NLP
 ***
 
 ## Sera
