@@ -163,7 +163,9 @@ MuseGan is a GAN-based project for generating multi-track polyphonic music. It c
 </p>
 
 ### References
-All outputs, model checkpoints, and detailed documentation are available in [MuseGAN.md](./MuseGAN.md).
+Documentation: [MuseGAN](https://sonu0305.github.io/MuseGAN-docs/) 
+MuseGAN README: [MuseGAN.md](./MuseGAN.md)
+MuseGAN Repository: [MuseGAN Repository](https://github.com/Star-Light-9/MuseGAN)
 
 **Mentors:**
 - [Kavya Rambhia](https://github.com/kavya-r30)  
