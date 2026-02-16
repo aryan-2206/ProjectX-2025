@@ -11,7 +11,7 @@ This is the list of projects completed in the 2025 programme.
 5. [Reinforcents](#reinforcents)
 6. [Neural Quest](#neural-quest)
 7. [Encrypted Chat Application](#encrypted-chat-application)
-8. [Text to Handwritting](#text-to-handwritting)
+8. [Text to Handwritting](#text-to-handwriting)
 9. [EEG Analyser and Simulator](#eeg-analyser-and-simulator)
 10. [MuseGan](#musegan)
 11. [Multimodal Graph DB with RAG](#multimodal-graph-db-with-rag)
@@ -131,16 +131,41 @@ $$Q(s, a) \leftarrow Q(s, a) + \alpha [R + \gamma \max_{a'} Q(s', a') - Q(s, a)]
 
 ***
 
-## Text to Handwritting
-### Description
+## Text to Handwriting
 
-### Output images
+### Description
+This project generates realistic handwritten text from typed input using a Conditional Generative Adversarial Network (CGAN).  
+Unlike traditional handwriting synthesis systems that require large datasets or fixed vocabularies, this model learns writer-specific style from a small set of handwriting samples (approximately 15 images per writer).
+
+A Content Encoder preserves textual correctness, while a Style Encoder captures unique handwriting characteristics. The Generator combines both representations to produce natural-looking handwritten word images.
+
+### Output Images
+The system produces handwritten word images that reflect:
+- The provided input text  
+- Writer-specific stylistic features  
+- Natural handwriting variations  
+
+![alt text](https://raw.github.com/hredayshah2507/Text-To-Handwriting/main/image-1.png)
+
+![alt text](https://raw.github.com/hredayshah2507/Text-To-Handwriting/main/image-9.png)
+
+![alt text](https://raw.github.com/hredayshah2507/Text-To-Handwriting/main/image-10.png)
+
+![alt text](https://raw.github.com/hredayshah2507/Text-To-Handwriting/main/image-11.png)
+
+![alt text](https://raw.github.com/hredayshah2507/Text-To-Handwriting/main/image-12.png)
 
 ### References
+- GANwriting: Content-Conditioned Generation of Styled Handwritten Word Images  
+- IAM Handwriting Word Database  
+- Deep Learning Specialization — DeepLearning.AI  
+- Kaggle Datasets  
 
-**Mentors:**
+**Mentors:**  
+- [Kavya Rambhia](https://github.com/kavya-r30)
+- [VirajVora](https://github.com/viraj200524) 
 
-**Domains:**
+**Domains:** Computer Vision, Generative Adversarial Networks (GANs), Natural Language Processing  
 
 ***
 
