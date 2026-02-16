@@ -11,7 +11,7 @@ This is the list of projects completed in the 2025 programme.
 5. [Reinforcents](#reinforcents)
 6. [Neural Quest](#neural-quest)
 7. [Encrypted Chat Application](#encrypted-chat-application)
-8. [Text to Handwritting](#text-to-handwritting)
+8. [Text to Handwritting](#text-to-handwriting)
 9. [EEG Analyser and Simulator](#eeg-analyser-and-simulator)
 10. [MuseGan](#musegan)
 11. [Multimodal Graph DB with RAG](#multimodal-graph-db-with-rag)
@@ -121,8 +121,6 @@ Unlike traditional handwriting synthesis systems that require large datasets or 
 
 A Content Encoder preserves textual correctness, while a Style Encoder captures unique handwriting characteristics. The Generator combines both representations to produce natural-looking handwritten word images.
 
----
-
 ### Output Images
 The system produces handwritten word images that reflect:
 - The provided input text  
@@ -139,31 +137,19 @@ The system produces handwritten word images that reflect:
 
 ![alt text](https://raw.github.com/hredayshah2507/Text-To-Handwriting/main/image-12.png)
 
----
-
 ### References
 - GANwriting: Content-Conditioned Generation of Styled Handwritten Word Images  
 - IAM Handwriting Word Database  
 - Deep Learning Specialization — DeepLearning.AI  
 - Kaggle Datasets  
 
----
-
 **Mentors:**  
 - [Kavya Rambhia](https://github.com/kavya-r30)
 - [VirajVora](https://github.com/viraj200524) 
 
----
-
-**Domains:**  
-Computer Vision  
-Generative Adversarial Networks (GANs)  
-Deep Learning  
-Natural Language Processing  
-Text-to-Image Synthesis  
+**Domains:** Computer Vision, Generative Adversarial Networks (GANs), Natural Language Processing  
 
 ***
-
 
 ## EEG Analyser and Simulator
 ### Description
