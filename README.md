@@ -171,15 +171,32 @@ The system produces handwritten word images that reflect:
 
 ## EEG Analyser and Simulator
 ### Description
-
+<p align="justify">
+  <strong>EEG Analyser and Simulator</strong> is a AI-driven simulation and prediction of brain dynamics using EEG data. This project aims to develop an AI-powered system that constructs a personalized Digital Twin of the Brain using EEG (Electroencephalogram) data.
+The system leverages deep learning and signal processing to analyze, predict, and simulate neurological patterns — enabling early detection of epilepsy, cognitive stress, depression, and other brain-related conditions. The system also aims to classify emotions in awake and dream phase. Other implications include the prediction of failure and success of surgery and drug identification and simulation of its effects on EEG data.
+In addition, the project explores neural generative modeling to interpret REM-phase brain activity into abstract visual representations, pushing the boundaries of dream analysis and subconscious understanding.
+</p>
 ### Output images
+The system predicts the desired label for EEG signal and also plots it.
+
+![alt_text](https://raw.githubusercontent.com/ajatshatru01/EEG-Analyser-and-simulator/main/EEG_Analyser/docs/output1.jpeg)
+
+![alt text](https://raw.githubusercontent.com/ajatshatru01/EEG-Analyser-and-simulator/main/EEG_Analyser/docs/output2.jpeg)
+
+![alt text](https://raw.githubusercontent.com/ajatshatru01/EEG-Analyser-and-simulator/main/EEG_Analyser/docs/output3.jpeg)
 
 ### References
-
+- [Transformer paper](https://arxiv.org/abs/1706.03762)
+- Datasets:- SEED, TUH HUP, HUP iEEG, SAM40, DEED
+- [LSTM](https://arxiv.org/html/2408.10328v1)
+- [EEG SIGNAL PROCESSING](https://mne.tools/stable/auto_tutorials/intro/10_overview.html)
+  
 **Mentors:**
-
+- [Ghruank Kothare](https://github.com/Ghruank)
+- [Afreen Kazi](https://github.com/Afreen-Kazi-1)
+  
 **Domains:**
-
+Signal processing, Machine Learning, Deep Learning
 ***
 
 ## MuseGan
