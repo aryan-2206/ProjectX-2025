@@ -66,16 +66,35 @@ $$Q(s, a) \leftarrow Q(s, a) + \alpha [R + \gamma \max_{a'} Q(s', a') - Q(s, a)]
 
 ***
 
-## Traffiq
+## 🚦 Traffiq
 ### Description
+<p align="justify">
+<strong>TrafIQ</strong> is an intelligent traffic signal control system that uses <strong>Deep Reinforcement Learning (DRL)</strong> to optimize signal timings in real-time. Built using <strong>SUMO</strong> simulation and algorithms such as <strong>Q-Learning, DQN, PPO, and MAPPO</strong>, the system dynamically adapts to traffic conditions to reduce queue lengths, waiting time, and emissions while maximizing throughput.
+</p>
 
 ### Output images
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/visualizations/sumo.png" height="260"/>
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/single_intersection/ppo/queue_length.png" height="260"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/visualizations/image.png" width="75%"/>
+</p>
 
 ### References
+<p align="justify">
+1. <strong>Documentation:</strong> <a href="https://sofiaabidi.github.io/TraffIQ-Project-X-2025/">Project Documentation</a><br>
+2. <strong>Source Code:</strong> <a href="https://github.com/sofiaabidi/TraffIQ-Project-X-2025">GitHub Repository</a><br>
+3. <strong>Simulation Engine:</strong> SUMO (Simulation of Urban Mobility)<br>
+4. <strong>Frameworks:</strong> PyTorch, Gymnasium
+</p>
 
 **Mentors:**
+- Yashvi Mehta  
+- Mahi Palimkar  
 
-**Domains:**
+**Domains:** Reinforcement Learning, Multi-Agent Systems, Intelligent Transportation Systems  
 
 ***
 
