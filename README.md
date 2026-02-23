@@ -6,7 +6,7 @@ This is the list of projects completed in the 2025 programme.
 
 1. [FakeMyVoice](#fakemyvoice)
 2. [Train Your Foes](#train-your-foes)
-3. [Traffiq](#traffiq)
+3. [Traffiq](#-traffiq)
 4. [Voice2English](#voice2english)
 5. [Reinforcents](#reinforcents)
 6. [Neural Quest](#neural-quest)
