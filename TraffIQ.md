@@ -19,7 +19,7 @@ TraffIQ leverages **Reinforcement Learning** to enable traffic signals that lear
 ## Key Features
 
 <p align="center">
-  <img src="results/visualizations/image.png" height="250"/>
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/visualizations/image.png" height="250"/>
 </p>
 
 ###  Multiple RL Algorithms
@@ -74,7 +74,7 @@ TraffIQ/
 ├── mini-projects/                 # Mini-project implementations
 │   ├── frozen-lake/              # Frozen Lake Q-Learning
 │   ├── taxi/                     # Taxi-v3 environment
-│   └── rule-based-sumo/          # Emergency vehicle preemption
+│   │   └── rule-based-sumo/      # Emergency vehicle preemption
 ├── experiments/
 │   └── cv-yolo/                  # YOLO vehicle detection
 ├── docs/                          # Documentation (MkDocs)
@@ -166,7 +166,7 @@ A simple tabular RL algorithm for discrete environments. Updates Q-values based 
 Q(s,a) = Q(s,a) + α[r + γ·max(Q(s',a')) - Q(s,a)]
 ```
 <p align="center">
-  <img src="results/single_intersection/q_learning/q_learning_queue_length.jpeg" height="250"/>
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/single_intersection/q_learning/q_learning_queue_length.jpeg" height="250"/>
 </p>
 
 ### DQN (Deep Q-Networks)
@@ -179,7 +179,7 @@ Uses neural networks to approximate Q-values with prioritized experience replay 
 - Huber loss for robustness
 
 <p align="center">
-  <img src="results/single_intersection/dqn/dqn_results.jpeg" height="250"/>
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/single_intersection/dqn/dqn_results.jpeg" height="250"/>
 </p>
 
 ### PPO (Proximal Policy Optimization)
@@ -192,39 +192,35 @@ A policy gradient method that ensures stable learning by clipping policy updates
 - Multiple epoch updates
 
 <p align="center">
-  <img src="results/single_intersection/ppo/queue_length.png?v=2" height="250"/>
-  <img src="results/single_intersection/ppo/waiting_time.png?v=2" height="250"/>
-  <img src="results/single_intersection/ppo/rewards_per_ep.png?v=2" height="250"/>
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/single_intersection/ppo/queue_length.png" height="250"/>
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/single_intersection/ppo/waiting_time.png" height="250"/>
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/single_intersection/ppo/rewards_per_ep.png" height="250"/>
 </p>
-
-
-
 
 ### MAPPO (Multi-Agent PPO)
 Extends PPO to multi-agent scenarios with either independent or centralized training approaches.
 - **Independent PPO:** Each agent learns independently
 - **Cooperative MAPPO:** Centralized critic with independent actors
 <p align="center">
-  <img src="results/visualizations/i.png" width="80%">
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/visualizations/i.png" width="80%">
 </p>
 <p align="center" style="font-size: 13px;">
   <b>Independent PPO Performance</b>
 </p>
 
 <p align="center">
-  <img src="results/visualizations/c.png" width="80%">
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/visualizations/c.png" width="80%">
 </p>
 <p align="center" style="font-size: 13px;">
   <b>Cooperative PPO Performance</b>
 </p>
-
 
 ### Genetic Algorithm
 Evolutionary approach inspired by natural selection for finding near-optimal signal timings.
 **Best for:** Black-box optimization, parameter tuning
 
 <p align="center">
-  <img src="results/single_intersection/genetic_algo/ga_optimization.jpeg" height="250"/>
+  <img src="https://raw.githubusercontent.com/sofiaabidi/TraffIQ-Project-X-2025/main/results/single_intersection/genetic_algo/ga_optimization.jpeg" height="250"/>
 </p>
 
 
