@@ -24,14 +24,62 @@ This is the list of projects completed in the 2025 programme.
 ***
 ## FakeMyVoice
 ### Description
+**Fake My Voice** is a deep learning-powered multi-speaker Text-to-Speech (TTS) system designed to clone voices with high fidelity. By extracting a unique **256-D speaker embedding** from just a few seconds of reference audio, the pipeline replicates the specific tone, accent, and style of any target speaker. 
 
-### Output images
+The project integrates three state-of-the-art architectures:
+* **GE2E Encoder:** Extracts robust vocal identity features.
+* **Tacotron 2:** Generates speaker-conditioned Mel-spectrograms from text.
+* **WaveGlow:** A flow-based neural vocoder for natural waveform generation.
+
+---
+
+### Output
+
+### **Tacotron2 Performance**
+Achieved smooth Mel-spectrogram prediction after ~60 epochs.
+
+**Text:** *"Printing, in the only sense with which we are at present concerned"*
+
+| Expected Mel | Predicted Mel | Predicted Frames |
+| :---: | :---: | :---: |
+| ![Expected mel](https://raw.githubusercontent.com/nihira20/Fake_My_Voice/main/images/target_mel.png) | ![mel predicted](https://raw.githubusercontent.com/nihira20/Fake_My_Voice/main/images/mel_64.png) | ![output frames](https://raw.githubusercontent.com/nihira20/Fake_My_Voice/main/images/output_frames.png) |
+
+### **Speaker Embeddings**
+Achieved stable separation across 40+ speakers. t-SNE plots show distinct identity clustering.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nihira20/Fake_My_Voice/main/images/embeddings.jpg" width="400">
+</p>
+
+### **Losses & Metrics**
+- **Mel Prediction:** Mean Squared Error (MSE) Loss.
+- **Stop Token:** Binary Cross-Entropy (BCE) Loss.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nihira20/Fake_My_Voice/main/images/loss.png" width="400">
+</p>
+
+### **Audio Output**
+[Download/Listen to Audio Sample](https://raw.githubusercontent.com/nihira20/Fake_My_Voice/main/images/model_output_fmv.wav)
+
+> *The audio says : "Use this model to clone the voice of any user"*
+
+---
 
 ### References
+* **Source Code:** [FakeMyVoice-Project-X-2025](https://github.com/nihira20/Fake_My_Voice)
+* **Research Papers:** [Tacotron 2](https://arxiv.org/pdf/1712.05884), [GE2E Loss](https://arxiv.org/pdf/1710.10467), [WaveGlow](https://arxiv.org/pdf/1811.00002).
+* **Datasets:** LJSpeech, VoxCeleb, and VCTK Corpus.
+* **Implementation:** [NVIDIA Tacotron 2 + WaveGlow](https://github.com/NVIDIA/tacotron2)
 
 **Mentors:**
+* Kevin Shah
+* Prasanna Kasar
+* Yash Ogale
 
 **Domains:**
+* Machine Learning & Deep Learning
+* Speech & Audio Signal Processing
+* Natural Language Processing (TTS)
 
 ***
 ## Train Your Foes
