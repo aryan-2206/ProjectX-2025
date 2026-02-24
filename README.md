@@ -76,10 +76,7 @@ Achieved stable separation across 40+ speakers. t-SNE plots show distinct identi
 * Prasanna Kasar
 * Yash Ogale
 
-**Domains:**
-* Machine Learning & Deep Learning
-* Speech & Audio Signal Processing
-* Natural Language Processing (TTS)
+**Domains:** Deep Learning, Speech & Audio Signal Processing, Natural Language Processing (TTS)
 
 ***
 ## Train Your Foes
